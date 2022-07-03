@@ -1,0 +1,134 @@
+:root{
+    --blue:#2F2FA2;
+    --logo:#F64072;
+
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:var(--blue); 
+}
+.header .top{
+   padding: 1rem 3%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.header .top .text{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color:var(--logo);
+}
+.header .top .text:hover{
+    color: #f09825;
+}
+.header .top .navbar a{
+font-size: 0.8rem;
+margin-left: 0.9rem;
+color:var(--logo);
+font-weight: bold;
+letter-spacing: 0.9px;
+}
+.header .top .navbar a:hover{
+   font-size: 0.9rem;
+   color: #d4d363;
+}
+
+.vector .png{
+    display: flex;
+    justify-content: space-between;
+}
+.vector .png img{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 150vh;
+}
+.vector .png h1{
+    text-align: center;
+    text-shadow: 0px 2px 2px rgb(29, 29, 29) ;
+    padding-top: 3rem;
+    color: #f77103;
+    letter-spacing: 0.1rem;
+}
+.vector .png p {
+    text-shadow: 0px 2px 2px rgb(29, 29, 29) ;
+    text-indent: 1cm;
+    letter-spacing: 0.01rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    cursor: default;
+}
+.vector .about {
+    margin-left: 2rem;
+    text-align: left;
+    color: white;
+    text-shadow: 0px 2px 2px rgb(29, 29, 29) ;
+}
+.vector .about h3{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: none;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+   letter-spacing: 0.03rem;
+}
+.vector .about h2{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+text-shadow: none;
+text-transform: none;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 0.06rem;
+}
+.vector .about p,i{
+    text-align: center;
+    text-transform: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.01rem;
+    }
+    .vector .about img{
+    margin-top: 2vh;
+      height: 30vh;
+      padding-right: 10px;
+    float: right;
+    }
+    .rajputs {
+     margin-top: 23vh;
+     color:white;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.01rem;
+    text-shadow: 0px 2px 2px rgb(29, 29, 29) ;
+    }
+    .rajputs h2{
+        
+        color: #f77103;
+    }
+    .rajputs p,i{
+        padding-top: 3px;
+        margin-left: 2rem;
+        color:white;
+       text-align: center;
+       text-transform: none;
+       font-family: 'Courier New', Courier, monospace;
+       letter-spacing: 0.01rem;
+       text-shadow: 0px 2px 2px rgb(29, 29, 29) ;
+    }
+    .vector .about .flag img{
+        text-align: right;
+        height: 15vh;
+        margin-top: -0.4vh;
+    }
